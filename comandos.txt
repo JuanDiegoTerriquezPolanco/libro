@@ -1,0 +1,239 @@
+Torombolo@DESKTOP-NA1AC81 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 ~
+$ cd ./
+Display all 66 possibilities? (y or n)
+.Albion Online Launcher/
+.InstallAnywhere/
+.Origin/
+.QtWebEngineProcess/
+.VirtualBox/
+.android/
+.bash_history
+.config/
+.emulator_console_auth_token
+.expo/
+.gitconfig
+.gradle/
+.m2/
+.ms-ad/
+.ssh/
+.thumbnails/
+.viminfo
+.vscode/
+3D Objects/
+AndroidStudioProjects/
+AppData/
+Application Data/
+Autodesk/
+AwesomeProject/
+--More--       ^C
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 ~
+$ cd ..
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /c/Users
+$ cd ..
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /c
+$ cd ..
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd J:\Documents\TouchOfTech
+bash: cd: $'\302\226J:DocumentsTouchOfTech': No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd .\J:\Documents\TouchOfTech
+bash: cd: .J:DocumentsTouchOfTech: No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd .J:\Documents\TouchOfTech
+bash: cd: .J:DocumentsTouchOfTech: No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd \J:\Documents\TouchOfTech
+bash: cd: $'\302\226J:DocumentsTouchOfTech': No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd ..
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /
+$ cd ./J
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Do
+Documentos - Acceso directo.lnk  Downloads/
+Documents/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Do
+Documentos - Acceso directo.lnk  Downloads/
+Documents/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Document
+bash: cd: ./Document: No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Document - Acceso directo.lnk
+bash: cd: too many arguments
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd \Document
+bash: cd: Document: No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd .\Document
+bash: cd: .Document: No such file or directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Document
+Documentos - Acceso directo.lnk  Documents/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J
+$ cd ./Documents
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents
+$ cd ./TouchOfTech/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech
+$ mkdir tarea1
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech
+$ ls
+tarea1/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech
+$ cd ./tarea1/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1
+$ git init
+Initialized empty Git repository in J:/Documents/TouchOfTech/tarea1/.git/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ cat > indice.txt
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ cat indice.txt
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        indice.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git add .
+warning: LF will be replaced by CRLF in indice.txt.
+The file will have its original line endings in your working directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ ^C
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ ^C
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git commit -m "Añadido índice del libro."
+[master (root-commit) fea699b] Añadido índice del libro.
+ 1 file changed, 3 insertions(+)
+ create mode 100644 indice.txt
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ nano indice.txt
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ cat indice.txt
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos
+
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   indice.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git log
+commit fea699bd57a9f3acd580aa28cc4ae44ecee3c121 (HEAD -> master)
+Author: JuanDiegoTP <73618453+JuanDiegoTerriquezPolanco@users.noreply.github.com>
+Date:   Wed Oct 26 16:42:10 2022 -0500
+
+    Añadido índice del libro.
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ mkdir capitulos
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ cd ./capitulos/
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1/capitulos (master)
+$ cat > capitulo1.txt
+Git es un sistema de control de versiones ideado por Linus Torvalds.
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1/capitulos (master)
+$ cd ..
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git add .
+warning: LF will be replaced by CRLF in indice.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in capitulos/capitulo1.txt.
+The file will have its original line endings in your working directory
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git commit -m "Añadido capitulo 1."
+[master 707318d] Añadido capitulo 1.
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 capitulos/capitulo1.txt
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ git log
+commit 707318d08e40392e9a4e8cb0d53844214ecddbaf (HEAD -> master)
+Author: JuanDiegoTP <73618453+JuanDiegoTerriquezPolanco@users.noreply.github.com>
+Date:   Wed Oct 26 16:57:11 2022 -0500
+
+    Añadido capitulo 1.
+
+commit fea699bd57a9f3acd580aa28cc4ae44ecee3c121
+Author: JuanDiegoTP <73618453+JuanDiegoTerriquezPolanco@users.noreply.github.com>
+Date:   Wed Oct 26 16:42:10 2022 -0500
+
+    Añadido índice del libro.
+
+Torombolo@DESKTOP-NA1AC81 MINGW64 /J/Documents/TouchOfTech/tarea1 (master)
+$ cat > comandos.txt
